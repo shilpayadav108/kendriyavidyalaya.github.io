@@ -1,0 +1,17 @@
+<html>
+ <head><title>Student Entry Form</title></head>
+  <body bgcolor=skyblue>
+    <h1>Enter the details </h1>
+    <form action="#" method="POST">
+      {%csrf_token%}
+      Roll: &nbsp <input type="text" name="rollno"><br><br>
+      Name: &nbsp <input type="text" name="name"><br><br>
+      <input type="submit" value="SUBMIT"><br><br>
+    </form>
+
+    <a href="http://127.0.0.1:8000/first">
+<h1>Click here to add new students</h1>
+</a>
+</body>
+</html>
+
